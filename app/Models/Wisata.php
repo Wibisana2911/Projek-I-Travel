@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Wisata extends Model
 {
     use HasFactory;
+<<<<<<< HEAD
     protected $fillable = [
         'nama_wisata',
         'gambar',
@@ -20,4 +21,6 @@ class Wisata extends Model
     public function transportasi(){
         return $this->belongsTo(Transportasi::class);
     }
+=======
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 }

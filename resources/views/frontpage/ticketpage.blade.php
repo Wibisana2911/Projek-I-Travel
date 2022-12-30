@@ -51,7 +51,11 @@
 		</style>
 <body>
     <!--navbar-->
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
  <!--Nav-->
  <nav id="header" class="top-0 z-30 w-full py-1">
         <div class="container flex flex-wrap items-center justify-between w-full px-6 py-3 mx-auto mt-0">
@@ -81,7 +85,11 @@
                     </svg>
                     I-TRAVEL SHOP
                 </a>
+<<<<<<< HEAD
             </div>
+=======
+            </div>		
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 
             <div class="flex items-center order-2 md:order-3" id="nav-content">
 
@@ -130,7 +138,11 @@
             @endif
         </div>
     </nav>
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
     <div class="relative bg-white shadow-2xl carousel">
 	<div class="relative w-full] overflow-hidden carousel-inner">
 	  <!--Slide 1-->
@@ -141,7 +153,11 @@
 		</div>
 		<label for="carousel-3" class="absolute inset-y-0 left-0 z-10 hidden w-10 h-10 my-auto ml-2 text-3xl font-bold leading-tight text-center text-black bg-white rounded-full cursor-pointer prev control-1 md:ml-10 hover:text-white hover:bg-blue-700">‹</label>
 		<label for="carousel-2" class="absolute inset-y-0 right-0 z-10 hidden w-10 h-10 my-auto mr-2 text-3xl font-bold leading-tight text-center text-black bg-white rounded-full cursor-pointer next control-1 md:mr-10 hover:text-white hover:bg-blue-700">›</label>
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 		<!--Slide 2-->
 		<input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
 		<div class="absolute opacity-0 carousel-item" style="height:80vh;">
@@ -150,8 +166,13 @@
 			<img src="/img/bus.png" alt="" class="w-full ">
 		</div>
 		<label for="carousel-1" class="absolute inset-y-0 left-0 z-10 hidden w-10 h-10 my-auto ml-2 text-3xl font-bold leading-tight text-center text-black bg-white rounded-full cursor-pointer prev control-2 md:ml-10 hover:text-white hover:bg-blue-700">‹</label>
+<<<<<<< HEAD
 		<label for="carousel-3" class="absolute inset-y-0 right-0 z-10 hidden w-10 h-10 my-auto mr-2 text-3xl font-bold leading-tight text-center text-black bg-white rounded-full cursor-pointer next control-2 md:mr-10 hover:text-white hover:bg-blue-700">›</label>
 
+=======
+		<label for="carousel-3" class="absolute inset-y-0 right-0 z-10 hidden w-10 h-10 my-auto mr-2 text-3xl font-bold leading-tight text-center text-black bg-white rounded-full cursor-pointer next control-2 md:mr-10 hover:text-white hover:bg-blue-700">›</label> 
+		
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 		<!--Slide 3-->
 		<input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
 		<div class="absolute opacity-0 carousel-item" style="height:80vh;">
@@ -174,7 +195,11 @@
 				<label for="carousel-3" class="block text-4xl text-white cursor-pointer carousel-bullet hover:text-blue-700">•</label>
 			</li>
 		</ol>
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 	</div>
 </div>
 <!--Category-->
@@ -263,7 +288,11 @@
       <div class="flex flex-row h-8">
         <!-- Username -->
         <a href="https://github.com/EgoistDeveloper/" target="_blank">
+<<<<<<< HEAD
           <h2 class="text-lg font-semibold">{{$t->nama_destinasi}}</h2>
+=======
+          <h2 class="text-lg font-semibold">{{$t->Nama_Destinasi}}</h2>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         </a>
 
         <!-- User Verified -->
@@ -284,17 +313,29 @@
               d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7.07,18.28C7.5,17.38 10.12,16.5 12,16.5C13.88,16.5 16.5,17.38 16.93,18.28C15.57,19.36 13.86,20 12,20C10.14,20 8.43,19.36 7.07,18.28M18.36,16.83C16.93,15.09 13.46,14.5 12,14.5C10.54,14.5 7.07,15.09 5.64,16.83C4.62,15.5 4,13.82 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,13.82 19.38,15.5 18.36,16.83M12,6C10.06,6 8.5,7.56 8.5,9.5C8.5,11.44 10.06,13 12,13C13.94,13 15.5,11.44 15.5,9.5C15.5,7.56 13.94,6 12,6M12,11A1.5,1.5 0 0,1 10.5,9.5A1.5,1.5 0 0,1 12,8A1.5,1.5 0 0,1 13.5,9.5A1.5,1.5 0 0,1 12,11Z" />
             </svg>
 
+<<<<<<< HEAD
           <div class="text-xs text-gray-400/80 hover:text-gray-400">{{$t->waktu_perjalanan}}</div>
+=======
+          <div class="text-xs text-gray-400/80 hover:text-gray-400">{{$t->Waktu_Perjalanan}}</div>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         </div>
 
         <!-- Badge Location -->
         <div class="flex flex-row">
+<<<<<<< HEAD
 
+=======
+          
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         </div>
 
         <!-- Badge Email-->
         <div class="flex flex-row">
+<<<<<<< HEAD
 
+=======
+         
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         </div>
       </div>
 
@@ -310,7 +351,11 @@
                 d="M12,23A1,1 0 0,1 11,22V19H7A2,2 0 0,1 5,17V7A2,2 0 0,1 7,5H21A2,2 0 0,1 23,7V17A2,2 0 0,1 21,19H16.9L13.2,22.71C13,22.89 12.76,23 12.5,23H12M13,17V20.08L16.08,17H21V7H7V17H13M3,15H1V3A2,2 0 0,1 3,1H19V3H3V15M9,9H19V11H9V9M9,13H17V15H9V13Z" />
               </svg>
 
+<<<<<<< HEAD
             <span class="font-bold text-gray-600"> Rp {{$t->id_harga}} </span>
+=======
+            <span class="font-bold text-gray-600"> Rp {{$t->ID_Harga}} </span>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
           </div>
 
           <div class="mt-2 text-sm text-gray-400">Harga</div>
@@ -326,7 +371,11 @@
                 d="M2.5 19.6L3.8 20.2V11.2L1.4 17C1 18.1 1.5 19.2 2.5 19.6M15.2 4.8L20.2 16.8L12.9 19.8L7.9 7.9V7.8L15.2 4.8M15.3 2.8C15 2.8 14.8 2.8 14.5 2.9L7.1 6C6.4 6.3 5.9 7 5.9 7.8C5.9 8 5.9 8.3 6 8.6L11 20.5C11.3 21.3 12 21.7 12.8 21.7C13.1 21.7 13.3 21.7 13.6 21.6L21 18.5C22 18.1 22.5 16.9 22.1 15.9L17.1 4C16.8 3.2 16 2.8 15.3 2.8M10.5 9.9C9.9 9.9 9.5 9.5 9.5 8.9S9.9 7.9 10.5 7.9C11.1 7.9 11.5 8.4 11.5 8.9S11.1 9.9 10.5 9.9M5.9 19.8C5.9 20.9 6.8 21.8 7.9 21.8H9.3L5.9 13.5V19.8Z" />
               </svg>
 
+<<<<<<< HEAD
             <span class="font-bold text-gray-600"> {{$t->makan}} </span>
+=======
+            <span class="font-bold text-gray-600"> {{$t->Makan}} </span>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
           </div>
 
           <div class="mt-2 text-sm text-gray-400">Makan</div>
@@ -342,14 +391,22 @@
                 d="M5.68,19.74C7.16,20.95 9,21.75 11,21.95V19.93C9.54,19.75 8.21,19.17 7.1,18.31M13,19.93V21.95C15,21.75 16.84,20.95 18.32,19.74L16.89,18.31C15.79,19.17 14.46,19.75 13,19.93M18.31,16.9L19.74,18.33C20.95,16.85 21.75,15 21.95,13H19.93C19.75,14.46 19.17,15.79 18.31,16.9M15,12A3,3 0 0,0 12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12M4.07,13H2.05C2.25,15 3.05,16.84 4.26,18.32L5.69,16.89C4.83,15.79 4.25,14.46 4.07,13M5.69,7.1L4.26,5.68C3.05,7.16 2.25,9 2.05,11H4.07C4.25,9.54 4.83,8.21 5.69,7.1M19.93,11H21.95C21.75,9 20.95,7.16 19.74,5.68L18.31,7.1C19.17,8.21 19.75,9.54 19.93,11M18.32,4.26C16.84,3.05 15,2.25 13,2.05V4.07C14.46,4.25 15.79,4.83 16.9,5.69M11,4.07V2.05C9,2.25 7.16,3.05 5.68,4.26L7.1,5.69C8.21,4.83 9.54,4.25 11,4.07Z" />
               </svg>
 
+<<<<<<< HEAD
             <span class="font-bold text-gray-600"> {{$t->transit}} </span>
+=======
+            <span class="font-bold text-gray-600"> {{$t->Transit}} </span>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
           </div>
 
           <div class="mt-2 text-sm text-gray-400">Transit</div>
         </a>
       </div>
     </div>
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
     <!-- Right Actions Container -->
     <div class="flex flex-col items-end justify-start flex-grow w-100">
       <div class="flex flex-row space-x-3">
@@ -405,7 +462,11 @@
                   </svg>
                   </span>
                   <span class="ml-3">
+<<<<<<< HEAD
                   Jl. Udayana, Singaraja, Bali
+=======
+                  Jl. Udayana, Singaraja, Bali 
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                   </span>
               </a>
               </li>
@@ -502,9 +563,19 @@
   <!-- end footer -->
 
 
+<<<<<<< HEAD
 
 
 
 
 </body>
 </html>
+=======
+    
+
+    
+    
+</body>
+</html>
+    
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1

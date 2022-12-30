@@ -66,7 +66,11 @@
                         <li><a href="/" class="inline-block px-4 py-2 no-underline hover:text-black hover:underline" href="#">Home</a></li>
                         <li><a class="inline-block px-4 py-2 no-underline hover:text-black hover:underline" href="#">About</a></li>
                     </ul>
+<<<<<<< HEAD
 
+=======
+                    
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                 </nav>
             </div>
 
@@ -77,7 +81,11 @@
                     </svg>
                     I-TRAVEL SHOP
                 </a>
+<<<<<<< HEAD
             </div>
+=======
+            </div>		
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 
             <div class="flex items-center order-2 md:order-3" id="nav-content">
 
@@ -103,9 +111,15 @@
                     </svg>
                 </a>
             </div>
+<<<<<<< HEAD
 
         </div>
 
+=======
+            
+        </div>
+        
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
     </nav>
 <!-- start order form -->
   <div class="min-h-screen p-0 bg-gray-100 sm:p-12">
@@ -278,7 +292,11 @@
                   </svg>
                   </span>
                   <span class="ml-3">
+<<<<<<< HEAD
                   Jl. Udayana, Singaraja, Bali
+=======
+                  Jl. Udayana, Singaraja, Bali 
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                   </span>
               </a>
               </li>
@@ -399,4 +417,8 @@
   }
 </script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1

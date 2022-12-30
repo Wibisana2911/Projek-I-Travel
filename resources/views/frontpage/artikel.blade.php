@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<<<<<<< HEAD
 
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
@@ -91,15 +92,103 @@
 
     <!-- Start Aside -->
     <aside class="fixed h-screen sticky top-20 flex antialiased overflow-y-auto overflow-x-hidden flex-col w-96 float-right mt-36 h-full border border-black border-2 bg-slate-400/20 p-6 rounded-md mr-6 sticky block sidebar">
+=======
+	
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    
+    <!-- Shortcut Web Icon -->
+    <link rel="shortcut icon" href="/img/logo2.png">
+    
+		
+</head>
+  <!--Header-->
+<body style="font-family: 'Source Sans Pro', sans-serif;">
+    <header>
+        <!--Nav-->
+        <nav class="fixed top-0 z-30 w-full text-white ">
+        <div class="container flex flex-wrap items-center justify-between w-full py-2 mx-auto mt-0">
+            <div class="flex items-center pl-4">
+            <a class="font-mono text-2xl text-black no-underline toggleColour hover:no-underline lg:text-4xl" href="#">
+                <!--Icon from: http://www.potlabicons.com/ -->
+                <svg class="inline h-8 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
+                <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
+                <path
+                    class="plane-take-off"
+                    d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
+                />
+                </svg>
+                I-TRAVEL 
+            </a>
+            </div>
+            <div class="block pr-4 lg:hidden">
+            <button id="nav-toggle" class="flex items-center p-1 text-pink-800 transition duration-300 ease-in-out transform hover:text-gray-900 focus:outline-none focus:shadow-outline hover:scale-105">
+                <svg class="w-6 h-6 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>MENU</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+            </div>
+            <div class="z-20 flex-grow hidden w-full p-4 mt-2 text-black bg-white lg:flex lg:items-center lg:w-auto lg:mt-0 lg:bg-transparent lg:p-0" id="nav-content">
+            <ul class="items-center justify-end flex-1 list-reset lg:flex">
+                <li class="mr-3">
+                <a class="inline-block px-4 py-2 font-bold text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/">HOME</a>
+                </li>
+                <li class="mr-3">
+                <a class="inline-block px-4 py-2 text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/wisata">WISATA</a>
+                </li>
+                <li class="mr-3">
+                <a href="/ticketpage" class="inline-block px-4 py-2 text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/ticketpage">TIKET</a>
+                </li>
+            </ul>
+
+            @if (Route::has('login'))
+                    <div class="px-4 py-2 mx-auto mt-4 font-bold text-gray-800 transition duration-300 ease-in-out transform bg-white rounded-full shadow opacity-75 lg:mx-0 hover:underline lg:mt-0 focus:outline-none focus:shadow-outline hover:scale-105 hover:bg-teal-400">
+                        @auth
+                        <!-- <button id="navAction" class="px-8 py-4 mx-auto mt-4 font-bold text-gray-800 transition duration-300 ease-in-out transform bg-white rounded-full shadow opacity-75 lg:mx-0 hover:underline lg:mt-0 focus:outline-none focus:shadow-outline hover:scale-105"> -->
+                        <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+                        <x-responsive-nav-link :href="route('logout')"
+                                onclick="event.preventDefault();
+                                            this.closest('form').submit();">    {{ __('Log Out') }}
+                        </x-responsive-nav-link>
+                    </form>
+                        @else
+                            <a href="{{ route('login') }}" class="text-sm text-gray-700 underline dark:text-bla">LOG IN</a>
+
+                            @if (Route::has('register'))
+                            <!-- <button id="navAction" class="px-8 py-4 mx-auto mt-4 font-bold text-gray-800 transition duration-300 ease-in-out transform bg-white rounded-full shadow opacity-75 lg:mx-0 hover:underline lg:mt-0 focus:outline-none focus:shadow-outline hover:scale-105"> -->
+                                <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline dark:text-gray-500">REGISTER</a>
+                            @endif
+                        @endauth
+                    </div>
+                @endif
+            </div>
+        </div>
+        <hr class="py-0 my-0 border-b border-gray-100 opacity-25" />
+        </nav>
+        <!-- End Nav -->
+    </header>
+    
+    <!-- Start Aside -->
+    <aside class="fixed h-screen sticky top-40 flex antialiased overflow-y-auto overflow-x-hidden flex-col w-96 float-right mt-36 h-full border border-black border-2 bg-slate-400/20 p-6 rounded-md mr-6 sticky block sidebar">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         <div class="justify-between p-4 leading-normal">
            <a href="/wisata"> <h5 class="mb-2 text-2xl font-bold tracking-tight text-black underline">Wisata Terpopuler</h5></a>
         </div>
         @foreach ($Wisata as $w)
         <div class="justify-between p-1 leading-normal">
+<<<<<<< HEAD
             <a href=/{{ $w->nama_wisata}} class="hover:underline font-semibold text-2xl ">{{$w->nama_wisata}}</a>
         </div>
         <img src="/img/{{$w->gambar}}.jpg" class="rounded-md w-60 h-40 border-2 shadow-md" alt="Gambar">
         <br>
+=======
+            <a href="#" class="hover:underline ">{{$w->nama_wisata}}</a>
+        </div>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         @endforeach
     </aside>
     <!-- End Aside  -->
@@ -114,10 +203,17 @@
                     <img src="/img/Pantai Dreamland.jpg" alt="" width="100%">
                 </div>
                 <div class="justify-center text-justify">
+<<<<<<< HEAD
                 <a class="text-green-500 no-underline hover:underline ml-12" href="https://www.tailwindcss.com"></a> Pantai Dreamland berada di Bukit Ungasan Desa Pecatu, dan masih berada di satu jalur untuk menuju ke objek wisata GWK atau Garuda Wisnu Kencana. Pantai Dreamland merupakan salah satu pantai terindah di Bali dan pantai populer yang menawarkan keindahan alam yang tiada tara.
                 Pantai dengan hamparan pasir putih yang luas ini juga memiliki ombak besar yang akan menabrak bebatuan karang yang ada di tepian pantai. Tentunya fenomena ini akan sangat menarik, terutama untuk berfoto-foto dan juga melakukan olahraga selancar alias surfing.
                 </div>
 
+=======
+                <a class="text-green-500 no-underline hover:underline ml-12" href="https://www.tailwindcss.com"></a> Pantai Dreamland berada di Bukit Ungasan Desa Pecatu, dan masih berada di satu jalur untuk menuju ke objek wisata GWK atau Garuda Wisnu Kencana. Pantai Dreamland merupakan salah satu pantai terindah di Bali dan pantai populer yang menawarkan keindahan alam yang tiada tara. 
+                Pantai dengan hamparan pasir putih yang luas ini juga memiliki ombak besar yang akan menabrak bebatuan karang yang ada di tepian pantai. Tentunya fenomena ini akan sangat menarik, terutama untuk berfoto-foto dan juga melakukan olahraga selancar alias surfing.
+                </div>
+        
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                 <!--Start Info-->
                 <div class="py-6 justify-center text-justify">
                     <strong><p class="text-2xl shadow-black"> Kegiatan di Pantai Dreamland</p></strong>
@@ -138,24 +234,40 @@
                             <img src="/img/cahaya.jpg" alt="" class="ml-10" width="680pt">
                         </div>
                         <div class="py-6 ml-12">
+<<<<<<< HEAD
                             <a class="ml-12">Jika Anda ingin mendapatkan pemandangan yang lebih indah di pantai ini, ada baiknya berkunjung saat
                             sore hari, yaitu menjelang matahari terbenam. Hal ini dikarenakan pantai Dreamland ini adalah salah satu pantai
                             terbaik untuk menikmati sunset.
+=======
+                            <a class="ml-12">Jika Anda ingin mendapatkan pemandangan yang lebih indah di pantai ini, ada baiknya berkunjung saat 
+                            sore hari, yaitu menjelang matahari terbenam. Hal ini dikarenakan pantai Dreamland ini adalah salah satu pantai 
+                            terbaik untuk menikmati sunset. 
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                             </a>
                         </div>
 
                         <!-- info3 -->
+<<<<<<< HEAD
                         <div>3.   Surfing di Pantai Dreamland
                             <img src="/img/Surfing di Pantai Dreamland.jpg" alt="" class="ml-10" width="680pt">
                         </div>
                         <div class="py-6 ml-12">
                             <a class="ml-12">Jika Anda memiliki kemampuan atau hobi untuk melakukan olahraga ini, cobalah melakukannya di pantai ini.
                             Namun, karena ombak di pantai Dreamland besar dan bergulung-gulung,
+=======
+                        <div>3.   Surfing di Pantai Dreamland 
+                            <img src="/img/Surfing di Pantai Dreamland.jpg" alt="" class="ml-10" width="680pt">
+                        </div>
+                        <div class="py-6 ml-12">
+                            <a class="ml-12">Jika Anda memiliki kemampuan atau hobi untuk melakukan olahraga ini, cobalah melakukannya di pantai ini. 
+                            Namun, karena ombak di pantai Dreamland besar dan bergulung-gulung, 
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                             sebaiknya yang akan surfing di sini memang mereka yang sudah berpengalaman.
                             </a>
                         </div>
 
                         <!-- info4 -->
+<<<<<<< HEAD
                         <div>4. Wisata Kuliner Pantai Dreamland
                             <img src="/img/Wisata Kuliner Pantai Dreamland.jpg" alt="" class="ml-10" width="680pt">
                         </div>
@@ -166,6 +278,23 @@
                             </a>
                         </div>
                 </div>
+=======
+                        <div>4. Wisata Kuliner Pantai Dreamland 
+                            <img src="/img/Wisata Kuliner Pantai Dreamland.jpg" alt="" class="ml-10" width="680pt">
+                        </div>
+                        <div class="py-6 ml-12">
+                            <a class="ml-12">Pantai Dreamland juga merupakan pantai dengan fasilitas lengkap. Satu hal seru lainnya yang bisa dinikmati di 
+                            pantai ini adalah menikmati wisata kuliner di sekitar pantai. Di sekitar pantai memang ada beberapa kafe yang 
+                            menawarkan makanan beraneka menu.
+                            </a>
+                        </div>
+                </div>  
+                <ol>
+                    <li class="py-3">Maecenas accumsan lacus sit amet elementum porta. Aliquam eu libero lectus. Fusce vehicula dictum mi. In non dolor at sem ullamcorper venenatis ut sed dui. Ut ut est quam. Suspendisse quam quam, commodo sit amet placerat in, interdum a ipsum. Morbi sit amet tellus scelerisque tortor semper posuere.</li>
+                    <li class="py-3">Morbi varius posuere blandit. Praesent gravida bibendum neque eget commodo. Duis auctor ornare mauris, eu accumsan odio viverra in. Proin sagittis maximus pharetra. Nullam lorem mauris, faucibus ut odio tempus, ultrices aliquet ex. Nam id quam eget ipsum luctus hendrerit. Ut eros magna, eleifend ac ornare vulputate, pretium nec felis.</li>
+                    <li class="py-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc vitae pretium elit. Cras leo mauris, tristique in risus ac, tristique rutrum velit. Mauris accumsan tempor felis vitae gravida. Cras egestas convallis malesuada. Etiam ac ante id tortor vulputate pretium. Maecenas vel sapien suscipit, elementum odio et, consequat tellus.</li>
+                </ol>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 
                 <blockquote class="pl-8 my-8 mb-6 italic border-l-4 border-green-500 md:pl-12">Example of blockquote - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</blockquote>
                 <!--/ Post Content-->
@@ -174,8 +303,13 @@
     </main>
 <!--/container-->
 
+<<<<<<< HEAD
     <!-- End Content  -->
 
+=======
+    <!-- End Content  --> 
+    
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
   <!-- start footer -->
   <footer class=" flex w-auto space-x-2 text-white bg-gray-900">
       <div class="w-1/3 h-full mt-10 ml-24 mr-32 item">
@@ -204,7 +338,11 @@
                   </svg>
                   </span>
                   <span class="ml-3">
+<<<<<<< HEAD
                   Jl. Udayana, Singaraja, Bali
+=======
+                  Jl. Udayana, Singaraja, Bali 
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                   </span>
               </a>
               </li>
@@ -315,6 +453,7 @@
         /*Apply classes for slide in bar*/
         scrollpos = window.scrollY;
 
+<<<<<<< HEAD
         if (scrollpos > 50) {
           header.classList.add("bg-white");
           navaction.classList.remove("bg-white");
@@ -398,6 +537,8 @@
         /*Apply classes for slide in bar*/
         scrollpos = window.scrollY;
 
+=======
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         if (scrollpos > 450) {
           header.classList.add("bg-white");
           navaction.classList.remove("bg-white");
@@ -467,8 +608,13 @@
         return false;
       }
   </script>
+<<<<<<< HEAD
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
+=======
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+  <script> 
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
     function toggleNavbar(collapseID) {
       document.getElementById(collapseID).classList.toggle('hidden')
       document.getElementById(collapseID).classList.toggle('block')
@@ -481,4 +627,8 @@
     })
 </script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1

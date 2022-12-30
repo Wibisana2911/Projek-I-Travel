@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Shortcut Web Icon -->
     <link rel="shortcut icon" href="/img/logo2.png">
+<<<<<<< HEAD
 
 
 </head>
@@ -28,6 +29,19 @@
       <div class="container flex flex-wrap items-center justify-between w-full py-2 mx-auto mt-0">
         <div class="flex items-center pl-4">
           <a class="font-mono text-2xl text-black  dark:text-white no-underline toggleColour hover:no-underline lg:text-4xl" href="#">
+=======
+    
+		
+</head>
+  <!--Header-->
+<body class="font-mono leading-normal tracking-normal text-white bg-gray-900 bg-gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+
+    <!--Nav-->
+    <nav id="header" class="fixed top-0 z-30 w-full text-white ">
+      <div class="container flex flex-wrap items-center justify-between w-full py-2 mx-auto mt-0">
+        <div class="flex items-center pl-4">
+          <a class="font-mono text-2xl text-black no-underline toggleColour hover:no-underline lg:text-4xl" href="#">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             <!--Icon from: http://www.potlabicons.com/ -->
             <svg class="inline h-8 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
               <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
@@ -36,7 +50,11 @@
                 d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
               />
             </svg>
+<<<<<<< HEAD
             I-TRAVEL
+=======
+            I-TRAVEL 
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
           </a>
         </div>
         <div class="block pr-4 lg:hidden">
@@ -47,6 +65,7 @@
             </svg>
           </button>
         </div>
+<<<<<<< HEAD
         <div class="z-20 flex-grow hidden w-full p-4 mt-2 text-black bg-white dark:bg-gray-800 lg:flex lg:items-center lg:w-auto lg:mt-0 lg:bg-transparent lg:p-0" id="nav-content">
           <ul class="items-center justify-end flex-1 list-reset lg:flex">
             <li class="mr-3">
@@ -57,6 +76,18 @@
             </li>
             <li class="mr-3">
               <a href="/ticketpage" class="inline-block px-4 py-2 text-black  dark:text-white  no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/tiketpage">TIKET</a>
+=======
+        <div class="z-20 flex-grow hidden w-full p-4 mt-2 text-black bg-white lg:flex lg:items-center lg:w-auto lg:mt-0 lg:bg-transparent lg:p-0" id="nav-content">
+          <ul class="items-center justify-end flex-1 list-reset lg:flex">
+            <li class="mr-3">
+              <a class="inline-block px-4 py-2 font-bold text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/">HOME</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block px-4 py-2 text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/wisata">WISATA</a>
+            </li>
+            <li class="mr-3">
+              <a href="/ticketpage" class="inline-block px-4 py-2 text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/tiketpage">TIKET</a>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             </li>
           </ul>
 
@@ -88,23 +119,39 @@
 
 <main>
   <!-- Start About Us Card -->
+<<<<<<< HEAD
   <div class='flex items-center justify-center min-h-screen dark:bg-gray-900'>
 	  <div class="p-4 items-center justify-center w-[680px] h-64 rounded-xl group sm:flex space-x-6 bg-white dark:bg-gray-700 bg-opacity-50 shadow-xl hover:rounded-2xl"data-aos="flip-up">
+=======
+  <div class='flex items-center justify-center min-h-screen from-slate-100 via-slate-300 to-teal-500 bg-gradient-to-br'>
+	  <div class="p-4 items-center justify-center w-[680px] h-64 rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl"data-aos="flip-up">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 		  <img  class="block w-4/12 w-full h-40 mx-auto rounded-lg"  alt="I-Travel" loading="lazy" src='/img/logo2.png' />
 		    <div class="p-5 pl-0 sm:w-8/12">
 			    <div class="space-y-2">
 				    <div class="space-y-4">
+<<<<<<< HEAD
 					    <h4 class="font-semibold text-justify text-lg text-cyan-500">
+=======
+					    <h4 class="font-semibold text-justify text-lg text-cyan-900">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 						    About Us
 					    </h4>
 				    </div>
 				    <div class="flex items-center justify-between space-x-4">
 					    <div class="flex gap-3 space-y-1">
 						    <!-- <img  src="/img/logo2.png"  class="w-12 h-12 rounded-full" /> -->
+<<<<<<< HEAD
 						      <span class="text-black dark:text-white text-md text-semibold">I-Travel</span>
 					    </div>
             </div>
             <p class="text-black dark:text-white text-md text-semibold">Tempat informasi perjalanan lengkap serta tiket perjalanan</p>
+=======
+						      <span class="text-black text-md text-semibold">I-Travel</span>
+					    </div>
+            </div>
+            <p class="text-black text-md text-semibold">Tempat informasi perjalanan lengkap serta tiket perjalanan</p>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 				    <div class="flex items-center justify-between space-x-4">
 					    <div class="flex flex-row my-4 space-x-1 text-black">
 						    <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -119,7 +166,11 @@
     <!-- End About Us Card -->
 
     <!-- start profile creator -->
+<<<<<<< HEAD
     <div class="mb-16 dark:bg-gray-700">
+=======
+    <div class="mb-16">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             <!-- Code block starts -->
             <dh-component>
                 <div class="container flex justify-center pt-16 mx-auto">
@@ -128,18 +179,30 @@
                         <h1 class="w-5/6 pb-6 mx-auto text-3xl font-extrabold text-center text-white xl:text-4xl sm:w-4/6">The Talented People Behind the Scenes of the Organization</h1>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div class="w-full px-10 pt-10 bg-gray-100 dark:bg-gray-900">
+=======
+                <div class="w-full px-10 pt-10 bg-gray-100">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                     <div class="container mx-auto">
                         <div role="list" aria-label="Behind the scenes People " class="flex-wrap items-center lg:flex md:flex sm:flex xl:justify-center md:justify-around sm:justify-around lg:justify-around">
                           <!-- Start Info Author David -->
                           <div role="listitem" class="relative mt-16 mb-32 xl:w-1/3 sm:w-3/4 md:w-2/5 sm:mb-24 xl:max-w-sm lg:w-2/5">
+<<<<<<< HEAD
                                 <div class="overflow-hidden bg-white dark:bg-gray-400 rounded shadow-md  hover:bg-teal-400">
+=======
+                                <div class="overflow-hidden bg-white rounded shadow-md  hover:bg-teal-400">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                                     <div class="absolute flex justify-center w-full -mt-20">
                                         <div class="w-32 h-32">
                                             <img src="/img/david.jpeg" alt="Display Picture of Andres Berlin" role="img" class="object-cover w-full h-full rounded-full shadow-md" />
                                         </div>
                                     </div>
+<<<<<<< HEAD
 
+=======
+                                    
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                                     <div class="px-6 mt-16">
                                         <h1 class="mb-1 text-3xl font-bold text-center text-black">David Mario Yohanes Samosir</h1>
                                         <p class="text-sm text-center text-gray-800">2115101055</p>
@@ -177,13 +240,21 @@
 
                             <!-- Start Info Author Rama -->
                             <div role="listitem" class="relative mt-16 mb-32 xl:w-1/3 lg:mx-3 sm:w-3/4 md:w-2/5 sm:mb-24 xl:max-w-sm lg:w-2/5">
+<<<<<<< HEAD
                                 <div class="overflow-hidden bg-white  dark:bg-gray-400 rounded shadow-md  hover:bg-teal-400">
+=======
+                                <div class="overflow-hidden bg-white rounded shadow-md  hover:bg-teal-400">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                                     <div class="absolute flex justify-center w-full -mt-20">
                                         <div class="w-32 h-32">
                                             <img src="/img/rama.jpeg" alt="Display Picture of Silene Tokyo" role="img" class="object-cover w-full h-full rounded-full shadow-md" />
                                         </div>
                                     </div>
+<<<<<<< HEAD
 
+=======
+                                    
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                                     <div class="px-6 mt-16">
                                         <h1 class="mb-1 text-3xl font-bold text-black text-center">Ngakan Gde Satria Abirama</h1>
                                         <p class="text-sm text-center text-gray-800">2115101056</p>
@@ -221,13 +292,21 @@
 
                             <!-- Start Info Author Wibi -->
                             <div role="listitem" class="relative mt-16 mb-32 xl:w-1/3 sm:w-3/4 md:w-2/5 sm:mb-24 xl:max-w-sm lg:w-2/5">
+<<<<<<< HEAD
                                 <div class="overflow-hidden bg-white  dark:bg-gray-400  rounded shadow-md  hover:bg-teal-400">
+=======
+                                <div class="overflow-hidden bg-white rounded shadow-md  hover:bg-teal-400">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                                     <div class="absolute flex justify-center w-full -mt-20">
                                         <div class="w-32 h-32">
                                             <img src="/img/wibi.jpeg" alt="Display Picture of Johnson Stone" role="img" class="object-cover w-full h-full rounded-full shadow-md" />
                                         </div>
                                     </div>
+<<<<<<< HEAD
 
+=======
+                                    
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                                   <div class="px-6 mt-16">
                                         <h1 class="mb-1 text-3xl font-bold text-black text-center">Komang Wibisana</h1>
                                         <p class="text-sm text-center text-gray-800 ">2115101063</p>
@@ -265,13 +344,21 @@
 
                             <!-- Start Info Author April -->
                             <div role="listitem" class="relative mt-16 mb-32 xl:w-1/3 sm:w-3/4 md:w-2/5 sm:mb-24 xl:max-w-sm lg:w-2/5">
+<<<<<<< HEAD
                                 <div class="overflow-hidden bg-white  dark:bg-gray-400 rounded shadow-md  hover:bg-teal-400">
+=======
+                                <div class="overflow-hidden bg-white rounded shadow-md  hover:bg-teal-400">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                                     <div class="absolute flex justify-center w-full -mt-20">
                                         <div class="w-32 h-32">
                                             <img src="/img/april.jpeg" alt="Display Picture of Johnson Stone" role="img" class="object-cover w-full h-full rounded-full shadow-md" />
                                         </div>
                                     </div>
+<<<<<<< HEAD
 
+=======
+                                    
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                                     <div class="px-6 mt-16 content-center">
                                         <h1 class="mb-1 text-3xl font-bold text-black text-center">Ni Kadek Aprianti</h1>
                                         <p class="text-sm text-center text-gray-800">2115101070</p>
@@ -306,7 +393,11 @@
                                 </div>
                             </div>
                             <!-- End Info Author Rama -->
+<<<<<<< HEAD
 
+=======
+                     
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                     </div>
                 </div>
             </dh-component>
@@ -318,7 +409,11 @@
     <!-- start faq -->
     <!-- component -->
 <!-- This is an example component -->
+<<<<<<< HEAD
   <div class="w-screen h-full bg-slate-100 dark:bg-black">
+=======
+  <div class="w-screen h-full bg-slate-100">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 <div class="max-w-2xl p-16 mx-auto mt-40 rounded">
 
 <div id="accordion-collapse" data-accordion="collapse">
@@ -373,7 +468,11 @@
     </div>
   </div>
 </div>
+<<<<<<< HEAD
 <!--
+=======
+<!-- 
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 <p class="mt-5">This accordion component is part of a larger, open-source library of Tailwind CSS components. Learn
   more
   by going to the official <a class="text-blue-600 hover:underline"
@@ -414,7 +513,11 @@
                   </svg>
                   </span>
                   <span class="ml-3">
+<<<<<<< HEAD
                   Jl. Udayana, Singaraja, Bali
+=======
+                  Jl. Udayana, Singaraja, Bali 
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                   </span>
               </a>
               </li>
@@ -594,8 +697,13 @@
         return false;
       }
   </script>
+<<<<<<< HEAD
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
+=======
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+  <script> 
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
     function toggleNavbar(collapseID) {
       document.getElementById(collapseID).classList.toggle('hidden')
       document.getElementById(collapseID).classList.toggle('block')
@@ -608,4 +716,8 @@
     })
 </script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1

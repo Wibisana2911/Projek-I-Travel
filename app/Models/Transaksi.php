@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Transaksi extends Model
 {
     use HasFactory;
+<<<<<<< HEAD
     public function user(){
         return $this->belongsTo(User::class);
     }
@@ -17,4 +18,6 @@ class Transaksi extends Model
     public function harga(){
         return $this->belongsTo(Harga::class);
     }
+=======
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 }

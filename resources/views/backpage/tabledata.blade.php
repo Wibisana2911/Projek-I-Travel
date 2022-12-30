@@ -12,21 +12,37 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
         .font-family-karla { font-family: karla; }
+<<<<<<< HEAD
         .bg-sidebar { background: #475a5e; }
         .cta-btn { color: #25a0f2; }
         .upgrade-btn { background: #2ba4e1; }
         .upgrade-btn:hover { background: #43ccf1; }
+=======
+        .bg-sidebar { background: #3d68ff; }
+        .cta-btn { color: #3d68ff; }
+        .upgrade-btn { background: #1947ee; }
+        .upgrade-btn:hover { background: #0038fd; }
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         .active-nav-link { background: #1947ee; }
         .nav-item:hover { background: #1947ee; }
         .account-link:hover { background: #3d68ff; }
     </style>
 </head>
 <body class="flex bg-gray-100 font-family-karla">
+<<<<<<< HEAD
 
     <aside class="relative hidden w-64 h-screen shadow-xl bg-sidebar sm:block">
         <div class="p-6">
             <a href="index.html" class="text-3xl font-semibold text-white uppercase hover:text-gray-300">Admin Page</a>
             <img type="logo" class="w-24 mt-6 ml-8 rounded" src="/img/logo2.png" alt="logo I-Travel" title="Logo I-Travel" >
+=======
+    <aside class="relative hidden w-64 h-screen shadow-xl bg-sidebar sm:block">
+        <div class="p-6">
+            <a href="index.html" class="text-3xl font-semibold text-white uppercase hover:text-gray-300">Admin</a>
+            <button class="flex items-center justify-center w-full py-2 mt-5 font-semibold bg-white rounded-tr-lg rounded-bl-lg rounded-br-lg shadow-lg cta-btn hover:shadow-xl hover:bg-gray-300">
+                <i class="mr-3 fas fa-plus"></i> New Report
+            </button>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         </div>
         <nav class="pt-3 text-base font-semibold text-white">
             <h2 class="ml-6 font-serif text-lg font-semibold text-white underline shadow">MENU</h2>
@@ -166,6 +182,7 @@
               INPUT DATA
             </h2>
             <!-- CTA -->
+<<<<<<< HEAD
             <!--<form>
             <div class="flex flex-wrap">
             <input type="text" class="form-control relative flex-row min-w-0 block w-1/4 rounded-md px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
@@ -197,11 +214,159 @@
             <!-- General elements -->
             <h4
               class="mb-4 my-6 text-lg font-semibold text-gray-600 dark:text-gray-300">
+=======
+
+            {{-- start data 1 --}}
+            <!-- General elements -->
+            <h4
+              class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+              Wisata
+            </h4>
+            <div class="px-4 py-3 mb-8 rounded-lg shadow-md bg-slate-400 dark:bg-gray-800">
+            <div class="w-24 p-2 text-xl text-center text-black border-2 bg-white/50 hover:bg-blue-600 rounded-xl hover:text-white">
+                <a href="/formwisata" class="justify-center text-center">Create</a>
+            </div>
+
+                {{-- Table Data --}}
+                <div class="flex flex-col">
+                    <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                        <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+                            <div class="overflow-hidden">
+                                <table class="min-w-full">
+                                <thead class="bg-blue-600 border-b">
+                                    <tr>
+                                    <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-gray-900">
+                                        id
+                                    </th>
+                                    <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-gray-900">
+                                        Transportasi
+                                    </th>
+                                    <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-gray-900">
+                                        Nama Wisata
+                                    </th>
+                                    <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-gray-900">
+                                        Gambar
+                                    </th>
+                                    <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-gray-900">
+                                        Deskripsi
+                                    </th>
+                                    <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-gray-900">
+                                        Lokasi
+                                    </th>
+                                    <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-gray-900">
+                                        Date
+                                    </th>
+                                    <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-gray-900">
+                                    </th>
+                                    <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-gray-900">
+                                    </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="transition duration-300 ease-in-out bg-white border-b hover:bg-gray-100">
+                                        <td class="px-6 py-4 text-sm font-medium text-gray-900 whitespace-nowrap">1000</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Bus</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">🌊 Pantai Dreamland</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">/img/Pantai Dreamland.png</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Pantai Dreamland berada di Bukit Ungasan Desa Pecatu, dan masih berada di satu jalur untuk menuju ke</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Bukit Ungasan Desa Pecatu, Bali</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">2022-12-17</td>
+                                        <td><button class="text-slate-800 hover:text-blue-600 text-sm bg-white hover:bg-slate-100 border-y border-slate-200 font-medium px-4 py-2 inline-flex space-x-1 items-center">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>                      
+                </span>
+                <span>View</span>
+            </button></td>
+                                        <td><button class="text-slate-800 mr-2 hover:text-blue-600 text-sm bg-white hover:bg-slate-100 border border-slate-200 rounded-r-lg font-medium px-4 py-2 inline-flex space-x-1 items-center">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                  </svg>
+                  </span>
+                <span>Delete</span>
+            </button></td>
+                                    </tr>
+
+                                    <tr class="transition duration-300 ease-in-out bg-white border-b hover:bg-gray-100">
+                                        <td class="px-6 py-4 text-sm font-medium text-gray-900 whitespace-nowrap">1000</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Bus</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">🌊 Pantai Dreamland</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">/img/Pantai Dreamland.png</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Pantai Dreamland berada di Bukit Ungasan Desa Pecatu, dan masih berada di satu jalur untuk menuju ke</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Bukit Ungasan Desa Pecatu, Bali</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">2022-12-17</td>
+                                        <td><button class="text-slate-800 hover:text-blue-600 text-sm bg-white hover:bg-slate-100 border-y border-slate-200 font-medium px-4 py-2 inline-flex space-x-1 items-center">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>                      
+                </span>
+                <span>View</span>
+            </button></td>
+                                        <td><button class="text-slate-800 mr-2 hover:text-blue-600 text-sm bg-white hover:bg-slate-100 border border-slate-200 rounded-r-lg font-medium px-4 py-2 inline-flex space-x-1 items-center">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                  </svg>
+                  </span>
+                <span>Delete</span>
+            </button></td>
+                                    </tr>
+
+                                    <tr class="transition duration-300 ease-in-out bg-white border-b hover:bg-gray-100">
+                                        <td class="px-6 py-4 text-sm font-medium text-gray-900 whitespace-nowrap">1000</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Bus</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">🌊 Pantai Dreamland</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">/img/Pantai Dreamland.png</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Pantai Dreamland berada di Bukit Ungasan Desa Pecatu, dan masih berada di satu jalur untuk menuju ke</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Bukit Ungasan Desa Pecatu, Bali</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">2022-12-17</td>
+                                        <td><button class="text-slate-800 hover:text-blue-600 text-sm bg-white hover:bg-slate-100 border-y border-slate-200 font-medium px-4 py-2 inline-flex space-x-1 items-center">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>                      
+                </span>
+                <span>View</span>
+            </button></td>
+                                        <td><button class="text-slate-800 mr-2 hover:text-blue-600 text-sm bg-white hover:bg-slate-100 border border-slate-200 rounded-r-lg font-medium px-4 py-2 inline-flex space-x-1 items-center">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                  </svg>
+                  </span>
+                <span>Delete</span>
+            </button></td>
+                                    </tr>
+                                </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- End Table Data --}}
+            </div>
+            {{-- end data 1 --}}
+
+            {{-- start data 2 --}}
+            <!-- General elements -->
+            <h4
+              class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
               Tiket
             </h4>
             <div class="px-4 py-3 mb-8 rounded-lg shadow-md bg-slate-400 dark:bg-gray-800">
             <div class="w-24 p-2 text-xl text-center text-black border-2 bg-white/50 hover:bg-blue-600 rounded-xl hover:text-white">
+<<<<<<< HEAD
                 <a href="/formtiket" class="justify-center text-center">Create</a>
+=======
+                <a href="/formwisata" class="justify-center text-center">Create</a>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             </div>
 
                 {{-- Table Data --}}
@@ -222,9 +387,12 @@
                                         Nama Destinasi
                                     </th>
                                     <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-gray-900">
+<<<<<<< HEAD
                                         Harga
                                     </th>
                                     <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-gray-900">
+=======
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                                         Tanggal Tiket
                                     </th>
                                     <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-gray-900">
@@ -243,6 +411,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+<<<<<<< HEAD
                                     @foreach ($data as $tiket)
                                     <td class="px-6 py-4 text-sm font-medium text-gray-900 whitespace-nowrap">{{$tiket->id}}</td>
                                         <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Pesawat</td>
@@ -280,6 +449,61 @@
                                     @endforeach
 
 
+=======
+                                    <tr class="transition duration-300 ease-in-out bg-white border-b hover:bg-gray-100">
+                                        <td class="px-6 py-4 text-sm font-medium text-gray-900 whitespace-nowrap">10000</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Pesawat</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Bali -> Jakarta</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">2023-01-15</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">01:45:00</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">0x</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">0x</td>
+                                        <td><button class="text-slate-800 hover:text-blue-600 text-sm bg-white hover:bg-slate-100 border-y border-slate-200 font-medium px-4 py-2 inline-flex space-x-1 items-center">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>                      
+                </span>
+                <span>View</span>
+            </button></td>
+                                        <td><button class="text-slate-800 mr-2 hover:text-blue-600 text-sm bg-white hover:bg-slate-100 border border-slate-200 rounded-r-lg font-medium px-4 py-2 inline-flex space-x-1 items-center">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                  </svg>
+                  </span>
+                <span>Delete</span>
+            </button></td>
+                                    </tr>
+
+                                    <tr class="transition duration-300 ease-in-out bg-white border-b hover:bg-gray-100">
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-900 whitespace-nowrap">10001</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Pesawat</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">Bali -> Medan</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">2023-01-15</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">01:55:00</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">0x</td>
+                                        <td class="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">1x</td>
+                                        <td><button class="text-slate-800 hover:text-blue-600 text-sm bg-white hover:bg-slate-100 border-y border-slate-200 font-medium px-4 py-2 inline-flex space-x-1 items-center">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>                      
+                </span>
+                <span>View</span>
+            </button></td>
+                                        <td><button class="text-slate-800 mr-2 hover:text-blue-600 text-sm bg-white hover:bg-slate-100 border border-slate-200 rounded-r-lg font-medium px-4 py-2 inline-flex space-x-1 items-center">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                  </svg>
+                  </span>
+                <span>Delete</span>
+            </button></td>
+                </tr>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                                 </tbody>
                                 </table>
                             </div>
@@ -289,6 +513,7 @@
                 {{-- End Table Data --}}
             </div>
             {{-- end data 1 --}}
+<<<<<<< HEAD
             <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
                 INPUT DATA
               </h2>
@@ -540,6 +765,14 @@
             <!-- end footer -->
             <footer class="w-full p-4 text-right text-white border-white/50 bg-gray-900">
                 Built by <a target="_blank" href="/aboutus" class="underline">055 056 070</a>.
+=======
+
+          </div>
+        </main>
+
+            <footer class="w-full p-4 text-right bg-white">
+                Built by <a target="_blank" href="https://davidgrzyb.com" class="underline">David Grzyb</a>.
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             </footer>
         </div>
 

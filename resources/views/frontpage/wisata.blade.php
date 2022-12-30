@@ -23,13 +23,21 @@
 
 </head>
   <!--Header-->
+<<<<<<< HEAD
 <body class="font-mono leading-normal tracking-normal text-white bg-slate-300 bg-gradient dark:bg-gray-900" style="font-family: 'Source Sans Pro', sans-serif;">
+=======
+<body class="font-mono leading-normal tracking-normal text-white bg-slate-300 bg-gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 
     <!--Nav-->
     <nav id="header" class="fixed top-0 z-30 w-full text-white ">
       <div class="container flex flex-wrap items-center justify-between w-full py-2 mx-auto mt-0">
         <div class="flex items-center pl-4">
+<<<<<<< HEAD
           <a class="font-mono text-2xl text-black dark:text-white no-underline toggleColour hover:no-underline lg:text-4xl" href="#">
+=======
+          <a class="font-mono text-2xl text-black no-underline toggleColour hover:no-underline lg:text-4xl" href="#">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             <!--Icon from: http://www.potlabicons.com/ -->
             <svg class="inline h-8 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
               <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
@@ -49,6 +57,7 @@
             </svg>
           </button>
         </div>
+<<<<<<< HEAD
         <div class="z-20 flex-grow hidden w-full p-4 mt-2 text-black  bg-white dark:bg-gray-900 lg:flex lg:items-center lg:w-auto lg:mt-0 lg:bg-transparent lg:p-0" id="nav-content">
           <ul class="items-center justify-end flex-1 list-reset lg:flex">
             <li class="mr-3">
@@ -59,6 +68,18 @@
             </li>
             <li class="mr-3">
               <a href="/ticketpage" class="inline-block px-4 py-2 text-black dark:text-white no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/ticketpage">TIKET</a>
+=======
+        <div class="z-20 flex-grow hidden w-full p-4 mt-2 text-black bg-white lg:flex lg:items-center lg:w-auto lg:mt-0 lg:bg-transparent lg:p-0" id="nav-content">
+          <ul class="items-center justify-end flex-1 list-reset lg:flex">
+            <li class="mr-3">
+              <a class="inline-block px-4 py-2 font-bold text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/">HOME</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block px-4 py-2 text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/wisata">WISATA</a>
+            </li>
+            <li class="mr-3">
+              <a href="/ticketpage" class="inline-block px-4 py-2 text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/ticketpage">TIKET</a>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             </li>
           </ul>
 
@@ -87,6 +108,7 @@
       </div>
       <hr class="py-0 my-0 border-b border-gray-100 opacity-25" />
     </nav>
+<<<<<<< HEAD
   <div class="grid grid-cols-1 gap-5 p-10 mt-20 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 bg-gray-900">
     <!-- Read dari Database Wisata -->
     @foreach($Wisata as $w)
@@ -96,6 +118,17 @@
       <div class="px-6 py-4">
         <div class="mb-2 text-xl font-bold text-black dark:text-white">{{$w->nama_wisata}}</div>
         <div class="text-base text-gray-700 dark:text-white h-44">
+=======
+  <div class="grid grid-cols-1 gap-5 p-10 mt-20 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 from-slate-100 via-slate-300 to-teal-500 bg-gradient-to-br">
+    <!-- Read dari Database Wisata -->
+    @foreach($Wisata as $w)
+    <!--Card-->
+    <div class="overflow-hidden rounded shadow-lg">
+      <a href="/artikel"><img class="w-screen h-72" src="/img/{{$w->gambar}}.jpg" alt="Gambar"></a>
+      <div class="px-6 py-4">
+        <div class="mb-2 text-xl font-bold text-black">{{$w->nama_wisata}}</div>
+        <div class="text-base text-gray-700 h-44">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         {{$w->deskripsi}}
         </div>
       </div>
@@ -103,14 +136,22 @@
         <span class="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">#travel</span>
         <span class="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">#bali</span>
         <span class="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">#Indonesia</span>
+<<<<<<< HEAD
         <span class="text-xs text-gray-600 dark:text-white md:text-sm"><i class="ml-20 mr-2 fa-regular fa-calendar"></i>{{$w->date}}</span>
+=======
+        <span class="text-xs text-gray-600 md:text-sm"><i class="ml-20 mr-2 fa-regular fa-calendar"></i>{{$w->date}}</span>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
       </div>
     </div>
     @endforeach
   </div>
 
  <!-- start footer -->
+<<<<<<< HEAD
  <footer class="flex w-auto space-x-2 text-white bg-gray-800">
+=======
+ <footer class="flex w-auto space-x-2 text-white bg-gray-900">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
       <div class="w-1/3 h-full mt-10 ml-24 mr-32 item">
           <img src="/img/logo2.png" alt="logo I-Travel">
       </div>
@@ -128,7 +169,11 @@
           <h5 class="mt-8 ml-8 mr-32 font-semibold tracking-wider text-gray-500 uppercase">Our Company</h5>
           <ul class="mt-4 ml-8 mr-32">
               <li>
+<<<<<<< HEAD
               <a href="#" title="" class="flex items-center opacity-75 hover:opacity-100">
+=======
+              <a href="#" title="" class="flex items-center block opacity-75 hover:opacity-100">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                   <span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                       class="fill-current">

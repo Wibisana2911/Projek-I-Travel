@@ -13,6 +13,7 @@
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+<<<<<<< HEAD
 
     <!-- Shortcut Web Icon -->
     <link rel="shortcut icon" href="/img/logo2.png">
@@ -21,12 +22,26 @@
 </head>
 <!--Header-->
 <body class="font-mono leading-normal tracking-normal text-white bg-gray-200 dark:bg-gray-900 gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+=======
+    
+    <!-- Shortcut Web Icon -->
+    <link rel="shortcut icon" href="/img/logo2.png">
+    
+		
+</head>  
+<!--Header-->
+<body class="font-mono leading-normal tracking-normal text-white bg-gray-200 gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 
     <!--Nav-->
     <nav id="header" class="fixed top-0 z-30 w-full text-white ">
       <div class="container flex flex-wrap items-center justify-between w-full py-2 mx-auto mt-0">
         <div class="flex items-center pl-4">
+<<<<<<< HEAD
           <a class="font-mono text-2xl text-black dark:text-white no-underline toggleColour hover:no-underline lg:text-4xl" href="#">
+=======
+          <a class="font-mono text-2xl text-black no-underline toggleColour hover:no-underline lg:text-4xl" href="#">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             <!--Icon from: http://www.potlabicons.com/ -->
             <svg class="inline h-8 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
               <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
@@ -35,7 +50,11 @@
                 d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
               />
             </svg>
+<<<<<<< HEAD
             I-TRAVEL
+=======
+            I-TRAVEL 
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
           </a>
         </div>
         <div class="block pr-4 lg:hidden">
@@ -49,6 +68,7 @@
         <div class="z-20 flex-grow hidden w-full p-4 mt-2 text-black bg-white lg:flex lg:items-center lg:w-auto lg:mt-0 lg:bg-transparent lg:p-0" id="nav-content">
           <ul class="items-center justify-end flex-1 list-reset lg:flex">
             <li class="mr-3">
+<<<<<<< HEAD
               <a class="inline-block px-4 py-2 font-bold text-black  dark:text-white no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/">HOME</a>
             </li>
             <li class="mr-3">
@@ -56,6 +76,15 @@
             </li>
             <li class="mr-3">
               <a href="/ticketpage" class="inline-block px-4 py-2 text-black dark:text-white no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/ticketpage">TIKET</a>
+=======
+              <a class="inline-block px-4 py-2 font-bold text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/">HOME</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block px-4 py-2 text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/wisata">WISATA</a>
+            </li>
+            <li class="mr-3">
+              <a href="/ticketpage" class="inline-block px-4 py-2 text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/ticketpage">TIKET</a>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             </li>
           </ul>
 
@@ -96,7 +125,11 @@
       height: 540px;
     }
   </style>
+<<<<<<< HEAD
   <div class="block bg-white dark:bg-gray-700 rounded-lg shadow-lg">
+=======
+  <div class="block bg-white rounded-lg shadow-lg">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
     <div class="flex flex-wrap items-center">
       <div class="block w-full grow-0 shrink-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
         <div class="w-full map-container-2">
@@ -118,9 +151,15 @@
                 </div>
               </div>
               <div class="ml-6 grow">
+<<<<<<< HEAD
                 <p class="mb-1 font-bold dark:text-white">Technical support</p>
                 <p class="text-gray-500 dark:text-gray-200">support@example.com</p>
                 <p class="text-gray-500 dark:text-gray-200">+1 234-567-89</p>
+=======
+                <p class="mb-1 font-bold">Technical support</p>
+                <p class="text-gray-500">support@example.com</p>
+                <p class="text-gray-500">+1 234-567-89</p>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
               </div>
             </div>
           </div>
@@ -137,9 +176,15 @@
                 </div>
               </div>
               <div class="ml-6 grow">
+<<<<<<< HEAD
                 <p class="mb-1 font-bold dark:text-white">Sales questions</p>
                 <p class="text-gray-500 dark:text-gray-200">sales@example.com</p>
                 <p class="text-gray-500 dark:text-gray-200">+1 234-567-89</p>
+=======
+                <p class="mb-1 font-bold">Sales questions</p>
+                <p class="text-gray-500">sales@example.com</p>
+                <p class="text-gray-500">+1 234-567-89</p>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
               </div>
             </div>
           </div>
@@ -156,9 +201,15 @@
                 </div>
               </div>
               <div class="ml-6 grow">
+<<<<<<< HEAD
                 <p class="mb-1 font-bold dark:text-white">Press</p>
                 <p class="text-gray-500 dark:text-gray-200">press@example.com</p>
                 <p class="text-gray-500 dark:text-gray-200">+1 234-567-89</p>
+=======
+                <p class="mb-1 font-bold">Press</p>
+                <p class="text-gray-500">press@example.com</p>
+                <p class="text-gray-500">+1 234-567-89</p>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
               </div>
             </div>
           </div>
@@ -175,9 +226,15 @@
                 </div>
               </div>
               <div class="ml-6 grow">
+<<<<<<< HEAD
                 <p class="mb-1 font-bolddark:text-white">Bug report</p>
                 <p class="text-gray-500 dark:text-gray-200">bugs@example.com</p>
                 <p class="text-gray-500 dark:text-gray-200">+1 234-567-89</p>
+=======
+                <p class="mb-1 font-bold">Bug report</p>
+                <p class="text-gray-500">bugs@example.com</p>
+                <p class="text-gray-500">+1 234-567-89</p>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
               </div>
             </div>
           </div>
@@ -221,7 +278,11 @@
                   </svg>
                   </span>
                   <span class="ml-3">
+<<<<<<< HEAD
                   Jl. Udayana, Singaraja, Bali
+=======
+                  Jl. Udayana, Singaraja, Bali 
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                   </span>
               </a>
               </li>
@@ -401,6 +462,12 @@
         return false;
       }
   </script>
+<<<<<<< HEAD
 
 </body>
 </html>
+=======
+        
+</body>
+</html>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1

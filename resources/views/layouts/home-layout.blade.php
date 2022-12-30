@@ -24,7 +24,10 @@
         </span>
       </div>
       <ul class="md:flex md:items-center">
+<<<<<<< HEAD
         
+=======
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         <li class="mx-5 my-6 md:my-0">
           <a href="#" class="duration-500 text-x1 hover:text-slate-100">HOME</a>
         </li>
@@ -37,7 +40,11 @@
         <button class="py-2 mx-4 font-mono text-white duration-500 rounded px-9 bg-slate-600 hover:bg-slate-300 hover:text-slate-800">
           SIGN UP
         </button>
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
       </ul>
     </nav>
   </div>

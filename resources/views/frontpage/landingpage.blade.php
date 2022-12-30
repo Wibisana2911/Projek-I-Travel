@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,17 +13,25 @@
     <meta name="description" content="description here">
     <meta name="keywords" content="keywords,here">
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/> <!--Replace with your tailwind.css once created-->
+<<<<<<< HEAD
     <link rel="stylesheet" href="tailwind.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+=======
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
 
 
+<<<<<<< HEAD
 
     <!-- Shortcut Web Icon -->
     <link rel="shortcut icon" href="/img/logo2.png">
@@ -72,6 +83,15 @@
 </head>
   <!--Header-->
 <body class="font-mono leading-normal tracking-normal text-white bg-gray-200 dark:bg-gray-900 gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+=======
+    <!-- Shortcut Web Icon -->
+    <link rel="shortcut icon" href="/img/logo2.png">
+
+
+</head>
+  <!--Header-->
+<body class="font-mono leading-normal tracking-normal text-white bg-gray-200 gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 
     <!--Nav-->
     <nav id="header" class="fixed top-0 z-30 w-full text-white">
@@ -97,9 +117,14 @@
             </svg>
           </button>
         </div>
+<<<<<<< HEAD
         <div class="z-20 flex-grow hidden w-full p-4 mt-2 text-black bg-white dark:bg-gray-900 lg:flex lg:items-center lg:w-auto lg:mt-0 lg:bg-transparent lg:p-0" id="nav-content">
           <ul class="items-center justify-end flex-1 list-reset lg:flex">
 
+=======
+        <div class="z-20 flex-grow hidden w-full p-4 mt-2 text-black bg-white lg:flex lg:items-center lg:w-auto lg:mt-0 lg:bg-transparent lg:p-0" id="nav-content">
+          <ul class="items-center justify-end flex-1 list-reset lg:flex">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             <li class="mr-3">
               <a class="inline-block px-4 py-2 font-bold text-black no-underline hover:rounded-full hover:bg-teal-400 hover:text-xl hover:font-semibold" href="/">HOME</a>
             </li>
@@ -112,7 +137,11 @@
           </ul>
 
           @if (Route::has('login'))
+<<<<<<< HEAD
                 <div class="px-4 py-2 mx-auto mt-4 font-bold text-gray-800 transition duration-300 ease-in-out transform bg-white  rounded-full shadow opacity-75 lg:mx-0 hover:underline lg:mt-0 focus:outline-none focus:shadow-outline hover:scale-105 hover:bg-teal-400">
+=======
+                <div class="px-4 py-2 mx-auto mt-4 font-bold text-gray-800 transition duration-300 ease-in-out transform bg-white rounded-full shadow opacity-75 lg:mx-0 hover:underline lg:mt-0 focus:outline-none focus:shadow-outline hover:scale-105 hover:bg-teal-400">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                     @auth
                     <!-- <button id="navAction" class="px-8 py-4 mx-auto mt-4 font-bold text-gray-800 transition duration-300 ease-in-out transform bg-white rounded-full shadow opacity-75 lg:mx-0 hover:underline lg:mt-0 focus:outline-none focus:shadow-outline hover:scale-105"> -->
                     <form method="POST" action="{{ route('logout') }}">
@@ -165,28 +194,50 @@
 					</div>
 				</nav>
 
+<<<<<<< HEAD
 				<div class="w-full text-xl leading-normal text-gray-800 bg-gray-200 dark:bg-gray-900 rounded-t md:text-2xl">
 
 				<!--Lead Card-->
 				<div class="flex h-full overflow-hidden bg-white dark:bg-slate-800 text-white rounded shadow-lg">
 					<a href="/wisata" class="flex flex-wrap no-underline hover:no-underline">
+=======
+				<div class="w-full text-xl leading-normal text-gray-800 bg-gray-200 rounded-t md:text-2xl">
+
+				<!--Lead Card-->
+				<div class="flex h-full overflow-hidden bg-white rounded shadow-lg">
+					<a href="/artikel" class="flex flex-wrap no-underline hover:no-underline">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 						<div class="w-full rounded-t md:w-2/3">
 							<img src="/img/Pantai Dreamland.jpg" class="w-full h-full shadow">
 						</div>
 
 						<div class="flex flex-col flex-grow flex-shrink w-full md:w-1/3">
+<<<<<<< HEAD
 							<div class="flex-1 overflow-hidden bg-white dark:bg-gray-600 rounded-t rounded-b-none shadow-lg">
 								<p class="w-full px-6 pt-6 text-xs text-gray-600 md:text-sm"></p>
 								<div class="w-full px-6 text-3xl font-bold text-gray-900 dark:text-white">🌊 Pantai Dreamland</div>
 								<p class="px-6 mt-6 mb-5 ml-6 font-serif text-sm text-gray-800 dark:text-white">
+=======
+							<div class="flex-1 overflow-hidden bg-white rounded-t rounded-b-none shadow-lg">
+								<p class="w-full px-6 pt-6 text-xs text-gray-600 md:text-sm"></p>
+								<div class="w-full px-6 text-3xl font-bold text-gray-900">🌊 Pantai Dreamland</div>
+								<p class="px-6 mt-6 mb-5 ml-6 font-serif text-sm text-gray-800">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                 Pantai Dreamland berada di Bukit Ungasan Desa Pecatu, dan masih berada di satu jalur untuk menuju ke objek wisata GWK atau Garuda Wisnu Kencana. Pantai Dreamland merupakan salah satu pantai terindah di Bali dan pantai populer yang menawarkan keindahan alam yang tiada tara.
 								</p>
 							</div>
 
+<<<<<<< HEAD
 							<div class="flex-none p-6 mt-auto overflow-hidden bg-white dark:bg-gray-700 rounded-t-none rounded-b shadow-lg">
 								<div class="flex items-center justify-between">
 									<img class="w-8 h-8 mr-4 rounded-full avatar" data-tippy-content="I-Travel" src="/img/logo2.png" alt="I-Travel">
 									<p class="text-xs text-gray-600 dark:text-white md:text-sm">Desember 2022</p>
+=======
+							<div class="flex-none p-6 mt-auto overflow-hidden bg-white rounded-t-none rounded-b shadow-lg">
+								<div class="flex items-center justify-between">
+									<img class="w-8 h-8 mr-4 rounded-full avatar" data-tippy-content="I-Travel" src="/img/logo2.png" alt="I-Travel">
+									<p class="text-xs text-gray-600 md:text-sm">Desember 2022</p>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 								</div>
 							</div>
 						</div>
@@ -199,20 +250,36 @@
 				<div class="flex flex-wrap justify-between pt-12 -mx-6">
 					<!--1/3 col -->
 					<div class="flex flex-col flex-grow flex-shrink w-full p-6 md:w-1/3"data-aos="zoom-in">
+<<<<<<< HEAD
 						<div class="flex-1 overflow-hidden bg-white dark:bg-gray-600 rounded-t rounded-b-none shadow-lg">
 							<a href="/wisata" class="flex flex-wrap no-underline hover:no-underline">
 								<img src="/img/Pantai Pandawa.jpg" class="w-full h-64 pb-6 rounded-t">
 								<p class="w-full px-6 text-xs text-gray-600 md:text-sm"></p>
 								<div class="w-full px-6 text-xl font-bold text-gray-900 dark:text-white">🌊 Pantai Pandawa</div>
 								<p class="px-6 mb-5 mt-6 ml-6 font-serif text-base text-gray-800  dark:text-white">
+=======
+						<div class="flex-1 overflow-hidden bg-white rounded-t rounded-b-none shadow-lg">
+							<a href="/wisata" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="/img/Pantai Pandawa.jpg" class="w-full h-64 pb-6 rounded-t">
+								<p class="w-full px-6 text-xs text-gray-600 md:text-sm"></p>
+								<div class="w-full px-6 text-xl font-bold text-gray-900">🌊 Pantai Pandawa</div>
+								<p class="px-6 mb-5 mt-6 mb-5 ml-6 font-serif text-base text-gray-800">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 									Pantai Pandawa ini berlokasi di Kuta Selatan, Badung, Bali.
 								</p>
 							</a>
 						</div>
+<<<<<<< HEAD
 						<div class="flex-none p-6 mt-auto overflow-hidden bg-white dark:bg-gray-700 rounded-t-none rounded-b shadow-lg">
 							<div class="flex items-center justify-between">
 								<img class="w-8 h-8 mr-4 rounded-full avatar" data-tippy-content="I-Travel" src="/img/logo2.png" alt="I-Travel">
 								<p class="text-xs text-gray-600 dark:text-white md:text-sm">Desember 2022</p>
+=======
+						<div class="flex-none p-6 mt-auto overflow-hidden bg-white rounded-t-none rounded-b shadow-lg">
+							<div class="flex items-center justify-between">
+								<img class="w-8 h-8 mr-4 rounded-full avatar" data-tippy-content="I-Travel" src="/img/logo2.png" alt="I-Travel">
+								<p class="text-xs text-gray-600 md:text-sm">Desember 2022</p>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 							</div>
 						</div>
 					</div>
@@ -220,40 +287,72 @@
 
 					<!--2/3 col -->
 					<div class="flex flex-col flex-grow flex-shrink w-full p-6 md:w-1/3"data-aos="zoom-in">
+<<<<<<< HEAD
 						<div class="flex-1 overflow-hidden bg-white  dark:bg-gray-600 rounded-t rounded-b-none shadow-lg">
 							<a href="/wisata" class="flex flex-wrap no-underline hover:no-underline">
 								<img src="/img/Garuda Wisnu Kencana.jpg" class="w-full h-64 pb-6 rounded-t">
 								<p class="w-full px-6 text-xs text-gray-600  md:text-sm"></p>
 								<div class="w-full px-6 text-xl font-bold text-gray-900  dark:text-white">🏞️ Garuda Wisnu Kencana</div>
 								<p class="px-6 mb-5 mt-6 ml-6 font-serif text-base text-gray-800  dark:text-white">
+=======
+						<div class="flex-1 overflow-hidden bg-white rounded-t rounded-b-none shadow-lg">
+							<a href="/wisata" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="/img/Garuda Wisnu Kencana.jpg" class="w-full h-64 pb-6 rounded-t">
+								<p class="w-full px-6 text-xs text-gray-600 md:text-sm"></p>
+								<div class="w-full px-6 text-xl font-bold text-gray-900">🏞️ Garuda Wisnu Kencana</div>
+								<p class="px-6 mb-5 mt-6 mb-5 ml-6 font-serif text-base text-gray-800">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 									Taman Budaya Garuda Wisnu Kencana merupakan sebuah icon spesial untuk bali dan juga untuk Indonesia karena ukurannya yang mengalahkan patung Liberty.
 								</p>
 							</a>
 							</div>
+<<<<<<< HEAD
 						<div class="flex-none p-6 mt-auto overflow-hidden bg-white  dark:bg-gray-700 rounded-t-none rounded-b shadow-lg">
 							<div class="flex items-center justify-between">
 								<img class="w-8 h-8 mr-4 rounded-full avatar" data-tippy-content="I-Travel" src="/img/logo2.png" alt="I-Travel">
 								<p class="text-xs text-gray-600  dark:text-white md:text-sm">Desember 2022</p>
+=======
+						<div class="flex-none p-6 mt-auto overflow-hidden bg-white rounded-t-none rounded-b shadow-lg">
+							<div class="flex items-center justify-between">
+								<img class="w-8 h-8 mr-4 rounded-full avatar" data-tippy-content="I-Travel" src="/img/logo2.png" alt="I-Travel">
+								<p class="text-xs text-gray-600 md:text-sm">Desember 2022</p>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 							</div>
 						</div>
 					</div>
 
 					<!--3/3 col -->
 					<div class="flex flex-col flex-grow flex-shrink w-full p-6 md:w-1/3"data-aos="zoom-in">
+<<<<<<< HEAD
 						<div class="flex-1 overflow-hidden bg-white  dark:bg-gray-600 rounded-t rounded-b-none shadow-lg">
 							<a href="/wisata" class="flex flex-wrap no-underline hover:no-underline">
 								<img src="/img/Pantai Kuta.jpg" class="w-full h-64 pb-6 rounded-t">
 								<p class="w-full px-6 text-xs text-gray-600 md:text-sm"></p>
 								<div class="w-full px-6 text-xl font-bold text-gray-900  dark:text-white">🌊 Pantai Kuta</div>
 								<p class="px-6 mb-5 mt-6 mb-5 ml-6 font-serif text-base text-gray-800  dark:text-white">
+=======
+						<div class="flex-1 overflow-hidden bg-white rounded-t rounded-b-none shadow-lg">
+							<a href="/wisata" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="/img/Pantai Kuta.jpg" class="w-full h-64 pb-6 rounded-t">
+								<p class="w-full px-6 text-xs text-gray-600 md:text-sm"></p>
+								<div class="w-full px-6 text-xl font-bold text-gray-900">🌊 Pantai Kuta</div>
+								<p class="px-6 mb-5 mt-6 mb-5 ml-6 font-serif text-base text-gray-800">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 									Pantai Kuta terkenal dengan pancaran sinar matahari yang membuat banyak turis luar negeri berdatangan untuk berlibur dan berjemur.
 								</p>
 							</a>
 						</div>
+<<<<<<< HEAD
 						<div class="flex-none p-6 mt-auto overflow-hidden bg-white  dark:bg-gray-700 rounded-t-none rounded-b shadow-lg">
 							<div class="flex items-center justify-between">
 								<img class="w-8 h-8 mr-4 rounded-full avatar" data-tippy-content="I-Travel" src="/img/logo2.png" alt="I-Travel">
 								<p class="text-xs text-gray-600  dark:text-white  md:text-sm">Desember 2022</p>
+=======
+						<div class="flex-none p-6 mt-auto overflow-hidden bg-white rounded-t-none rounded-b shadow-lg">
+							<div class="flex items-center justify-between">
+								<img class="w-8 h-8 mr-4 rounded-full avatar" data-tippy-content="I-Travel" src="/img/logo2.png" alt="I-Travel">
+								<p class="text-xs text-gray-600 md:text-sm">Desember 2022</p>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 							</div>
 						</div>
 					</div>
@@ -264,6 +363,7 @@
         </div>
         </div>
 
+<<<<<<< HEAD
         <div class="w-screen mt-16 bg-teal-400 rounded-lg shadow-lg shadow-blue-500/40">
             <div class="justify-center p-6 mt-4 text-center">
               <strong>
@@ -371,12 +471,105 @@
         <!--Category-->
 
 
+=======
+    {{-- Start Review --}}
+    <div class="w-full mt-16 bg-teal-400 rounded-lg shadow-lg shadow-blue-500/40">
+          <div class="justify-center p-6 mt-4 text-center">
+            <strong>
+              <h1 class="text-4xl text-black">
+                  REVIEW
+              </h1>
+            </strong>
+          </div>
+          </div>
+  
+<style>
+  body {
+    background: #e2e8f0;
+  }
+    *:hover {
+      transition: all 150ms ease-in;
+    }
+  </style>
+  
+  <div class="antialiased max-w-6xl mx-auto my-12 bg-gray-300 px-8">
+    
+  
+    <div class="relative block md:flex items-center">
+      <div class="w-full md:w-1/2 relative z-1 bg-gray-100 rounded shadow-lg overflow-hidden">
+        <div class="block sm:flex md:block lg:flex items-center justify-center">
+          <div class="mt-8 sm:m-8 md:m-0 md:mt-8 lg:m-8 text-center">
+            <div class="inline-flex items-center">
+
+<form>
+   <div class="w-full mb-4 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
+       <div class="px-24 py-10 bg-white rounded-t-lg dark:bg-gray-800">
+           <label for="comment" class="sr-only">Your comment</label>
+           <textarea id="comment" rows="2" class="w-full px-0 text-sm text-gray-900 bg-white border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="Write a comment..." required></textarea>
+       </div>
+       <div class="flex items-center justify-between px-3 py-2 border-t dark:border-gray-600">
+           <button type="submit" class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">
+               Post comment
+           </button>
+       </div>
+   </div>
+</form>
+
+            </div>
+            
+          </div>
+          <div class="mt-4 mb-8 sm:m-8 md:m-0 md:mt-4 md:mb-8 lg:m-8 text-center">
+            <div class="inline-flex items-center">
+              
+            </div>
+           
+          </div>
+        </div>
+        <div class="flex justify-center mt-3">
+          <ul>
+            <li class="flex items-center">
+             
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+
+
+      <div class="w-full md:w-1/2 relative z-0 px-8 md:px-0 md:py-16">
+        <div class="bg-blue-900 text-white rounded-b md:rounded-b-none md:rounded-r shadow-lg overflow-hidden">
+          <div class="text-lg font-medium uppercase p-8 text-center border-b border-blue-800 tracking-wide">Enterprise</div>
+          <div class="text-center text-sm sm:text-md max-w-sm mx-auto mt-8 text-blue-200 px-8 lg:px-0">
+            Stripe offers everything needed to run an online business at scale. Get in touch for details.
+          </div>
+          <div class="mt-8 border border-blue-800 mx-8 lg:mx-16 flex flex-wrap">
+            <div class="flex items-center justify-center w-1/2 text-center p-4 border-r border-b border-blue-800">Account management</div>
+            <div class="flex items-center justify-center w-1/2 text-center p-4 border-b border-blue-800">Volume discounts</div>
+            <div class="flex items-center justify-center w-1/2 text-center p-4 border-r border-blue-800">Migration assistance</div>
+            <div class="flex items-center justify-center w-1/2 text-center p-4">Dedicated support</div>
+          </div>
+          <a class="block flex items-center justify-center bg-blue-800 hover:bg-blue-700 p-8 text-md font-semibold text-gray-300 uppercase mt-8" href="#">
+            <span>Contact sales</span>
+            <span class="font-medium text-gray-300 ml-2">➔</span>
+          </a>
+        </div>
+      </div>
+    </div>
+      
+    
+  </div>
+    </section>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 
 {{-- End Review --}}
 
 		  <!--Subscribe-->
       <section>
+<<<<<<< HEAD
         <div class="w-screen mt-16 bg-teal-400 rounded-lg shadow-lg shadow-blue-500/40">
+=======
+        <div class="w-full mt-16 bg-teal-400 rounded-lg shadow-lg shadow-blue-500/40">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
           <div class="justify-center p-6 mt-4 text-center">
             <strong>
               <h1 class="text-4xl text-black">
@@ -384,6 +577,7 @@
               </h1>
             </strong>
           </div>
+<<<<<<< HEAD
           </div>
         </div>
 
@@ -414,15 +608,48 @@
             </div>
     </a>
 
+=======
+
+          </div>
+        </div>
+
+        <div class="justify-center p-6 mt-4 mb-16 md:flex"data-aos="flip-down">
+            <div class="flex justify-around w-40 h-40 px-4 mt-2 mr-4 rounded-lg shadow-lg bg-white/70 shadow-indigo-500/40 hover:shadow-xl hover:shadow-blue-500/40">
+              <a href="/contactus">
+                <div class="items-center px-2 space-x-4 ">
+                  <div class="flex flex-col my-16 space-y-1">
+                    <strong><h1 class="text-xl text-center text-black">CONTACT US</h1></strong>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <a href="/aboutus">
+            <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                <div class="items-center px-4 space-x-4">
+                  <div class="flex flex-col my-16 space-y-1">
+                    <strong><h1 class="text-xl text-center text-black">ABOUT US</h1></strong>
+                  </div>
+                </div>
+                </button>
+              </a>
+
+            </div>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
       </section>
 				<!-- /Subscribe-->
 		</div>
 	</div>
 
 
+<<<<<<< HEAD
 
   <!-- start footer -->
   <footer class="flex w-screen space-x-2 text-white bg-gray-900">
+=======
+  <!-- start footer -->
+  <footer class="flex w-auto space-x-2 text-white bg-gray-900">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
       <div class="w-1/3 h-full mt-10 ml-24 mr-32 item">
           <img src="/img/logo2.png" alt="logo I-Travel">
       </div>
@@ -542,14 +769,20 @@
           <p class="mt-12 ml-24 mr-32 text-sm text-gray-400">2022 © I-Travel<br class="hidden lg:block">All Rights Reserved.
           </p>
       </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
   </footer>
   <!-- end footer -->
 
 <!-- jQuery if you need it
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   -->
+<<<<<<< HEAD
 
+=======
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
   <script>
       var scrollpos = window.scrollY;
       var header = document.getElementById("header");

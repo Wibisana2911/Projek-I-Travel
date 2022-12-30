@@ -18,6 +18,7 @@ module.exports = {
 
     plugins: [require('@tailwindcss/forms')],
 };
+<<<<<<< HEAD
 module.exports = {
     content: ['./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'],
     plugins: [
@@ -42,3 +43,5 @@ module.exports = {
     },
     plugins: [],
   }
+=======
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1

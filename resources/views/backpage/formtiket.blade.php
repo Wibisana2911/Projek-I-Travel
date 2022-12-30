@@ -12,21 +12,37 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
         .font-family-karla { font-family: karla; }
+<<<<<<< HEAD
         .bg-sidebar { background: #475a5e; }
         .cta-btn { color: #25a0f2; }
         .upgrade-btn { background: #2ba4e1; }
         .upgrade-btn:hover { background: #43ccf1; }
+=======
+        .bg-sidebar { background: #3d68ff; }
+        .cta-btn { color: #3d68ff; }
+        .upgrade-btn { background: #1947ee; }
+        .upgrade-btn:hover { background: #0038fd; }
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         .active-nav-link { background: #1947ee; }
         .nav-item:hover { background: #1947ee; }
         .account-link:hover { background: #3d68ff; }
     </style>
 </head>
 <body class="flex bg-gray-100 font-family-karla">
+<<<<<<< HEAD
 
     <aside class="relative hidden w-64 h-screen shadow-xl bg-sidebar sm:block">
         <div class="p-6">
             <a href="index.html" class="text-3xl font-semibold text-white uppercase hover:text-gray-300">Admin Page</a>
             <img type="logo" class="w-24 mt-6 ml-8 rounded" src="/img/logo2.png" alt="logo I-Travel" title="Logo I-Travel" >
+=======
+    <aside class="relative hidden w-64 h-screen shadow-xl bg-sidebar sm:block">
+        <div class="p-6">
+            <a href="index.html" class="text-3xl font-semibold text-white uppercase hover:text-gray-300">Admin</a>
+            <button class="flex items-center justify-center w-full py-2 mt-5 font-semibold bg-white rounded-tr-lg rounded-bl-lg rounded-br-lg shadow-lg cta-btn hover:shadow-xl hover:bg-gray-300">
+                <i class="mr-3 fas fa-plus"></i> New Report
+            </button>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         </div>
         <nav class="pt-3 text-base font-semibold text-white">
             <h2 class="ml-6 font-serif text-lg font-semibold text-white underline shadow">MENU</h2>
@@ -160,20 +176,32 @@
         </header>
 
         <!-- Form -->
+<<<<<<< HEAD
         <form method="post" action="/formtiket/post">
             @csrf
+=======
+        <form>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             <div class="flex flex-col w-full h-screen overflow-x-hidden border-t">
                 <main class="h-full pb-16 overflow-y-auto">
                     <div class="container grid px-6 mx-auto">
                     <h4
                     class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+<<<<<<< HEAD
                     Tiket
+=======
+                    Wisata
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                     </h4>
                     <div
                     class="px-4 py-3 mb-8 rounded-lg shadow-md bg-slate-400 dark:bg-gray-800">
                     <label class="block text-sm">
                     <span class="text-gray-700 dark:text-gray-400">Nama Destinasi</span>
+<<<<<<< HEAD
                     <input name="nama_destinasi"
+=======
+                    <input
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                         class="block w-1/3 mt-1 text-sm bg-slate-400 rounded-xl dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
                         placeholder="Name"/>
                     </label>
@@ -186,6 +214,7 @@
                         <label
                         class="inline-flex items-center text-gray-600 dark:text-gray-400"
                         >
+<<<<<<< HEAD
                         <input readonly
                             type="radio"
                             class="text-purple-600 form-radio focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
@@ -195,12 +224,34 @@
                         <span class="ml-2">Pesawat</span>
                         </label>
 
+=======
+                        <input
+                            type="radio"
+                            class="text-purple-600 form-radio focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
+                            name="Pesawat"
+                            value="Pesawat"
+                        />
+                        <span class="ml-2">Pesawat</span>
+                        </label>
+                        <label
+                        class="inline-flex items-center ml-6 text-gray-600 dark:text-gray-400"
+                        >
+                        <input
+                            type="radio"
+                            class="text-purple-600 form-radio focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
+                            name="Bus"
+                            value="Bus"
+                        />
+                        <span class="ml-2">Bus</span>
+                        </label>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                     </div>
                     </div>
 
                     <label class="block text-sm">
                     <span class="text-gray-700 dark:text-gray-400">Time</span>
                         <div class="relative mb-3 timepicker form-floating xl:w-96" data-mdb-with-icon="false" id="input-toggle-timepicker">
+<<<<<<< HEAD
                         <input type="time" id="appt" name="waktu_perjalanan" min="09:00" max="18:00" required>
                         </div>
                     </label>
@@ -208,12 +259,20 @@
                     <span class="text-gray-700 dark:text-gray-400">Tanggal Tiket</span>
                         <div class="relative mb-3 timepicker form-floating xl:w-96" data-mdb-with-icon="false" id="input-toggle-timepicker">
                         <input type="date" id="appt" name="tanggal_tiket" min="09:00" max="18:00" required>
+=======
+                        <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                         </div>
                     </label>
 
                     {{-- Kalender --}}
+<<<<<<< HEAD
                     <!--<label class=block nt-4 text-sm>
                      component
+=======
+                    <label class=block nt-4 text-sm>
+                    <!-- component -->
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
                     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
 
@@ -247,9 +306,15 @@
                                             </div>
 
 
+<<<<<<< HEAD
                                              <div x-text="no_of_days.length"></div>
                                             <div x-text="32 - new Date(year, month, 32).getDate()"></div>
                                             <div x-text="new Date(year, month).getDay()"></div>
+=======
+                                            <!-- <div x-text="no_of_days.length"></div>
+                                            <div x-text="32 - new Date(year, month, 32).getDate()"></div>
+                                            <div x-text="new Date(year, month).getDay()"></div> -->
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 
                                             <div
                                                 class="absolute top-0 left-0 p-4 mt-12 bg-white rounded-lg shadow"
@@ -383,12 +448,20 @@
                                 }
                             }
                         </script>
+<<<<<<< HEAD
                     </div> -->
+=======
+                    </div>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                     </label>
 
                     <label class="block text-sm">
                     <span class="text-gray-700 dark:text-gray-400">Transit</span>
+<<<<<<< HEAD
                     <select name="transit">
+=======
+                    <select>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                     <option selected>Jumlah</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -399,14 +472,22 @@
 
                     <label class="block text-sm">
                     <span class="text-gray-700 dark:text-gray-400">Makan</span>
+<<<<<<< HEAD
                     <select name="makan">
+=======
+                    <select>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                     <option selected>Jumlah</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     </select>
                     </label>
+<<<<<<< HEAD
 
+=======
+                    
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                     <div class="flex mt-6 text-sm">
                     <button type="submit" class="inline-flex justify-center px-4 py-2 text-sm font-medium text-black bg-white border-2 border-transparent rounded-md shadow-sm hover:bg-blue-600">Submit</button>
                     </div>
@@ -416,6 +497,7 @@
             </div>
         </form>
 
+<<<<<<< HEAD
         <!-- start footer -->
         <footer class="flex w-auto space-x-2 text-white bg-gray-900">
             <div class="w-1/3 h-full mt-10 ml-24 mr-32 item">
@@ -541,6 +623,10 @@
         <!-- end footer -->
         <footer class="w-full p-4 text-right text-white border-white/50 bg-gray-900">
             Built by <a target="_blank" href="/aboutus" class="underline">055 056 070</a>.
+=======
+        <footer class="w-full p-4 text-right bg-white">
+            Built by <a target="_blank" href="https://davidgrzyb.com" class="underline">David Grzyb</a>.
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         </footer>
     </div>
 

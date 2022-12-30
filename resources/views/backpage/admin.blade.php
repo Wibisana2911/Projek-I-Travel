@@ -12,10 +12,17 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
         .font-family-karla { font-family: karla; }
+<<<<<<< HEAD
         .bg-sidebar { background: #475a5e; }
         .cta-btn { color: #25a0f2; }
         .upgrade-btn { background: #2ba4e1; }
         .upgrade-btn:hover { background: #43ccf1; }
+=======
+        .bg-sidebar { background: #3d68ff; }
+        .cta-btn { color: #3d68ff; }
+        .upgrade-btn { background: #1947ee; }
+        .upgrade-btn:hover { background: #0038fd; }
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         .active-nav-link { background: #1947ee; }
         .nav-item:hover { background: #1947ee; }
         .account-link:hover { background: #3d68ff; }
@@ -25,8 +32,15 @@
 
     <aside class="relative hidden w-64 h-screen shadow-xl bg-sidebar sm:block">
         <div class="p-6">
+<<<<<<< HEAD
             <a href="index.html" class="text-3xl font-semibold text-white uppercase hover:text-gray-300 font-mono">Admin Page</a>
             <img type="logo" class="w-24 mt-6 ml-8 rounded" src="/img/logo2.png" alt="logo I-Travel" title="Logo I-Travel" >
+=======
+            <a href="index.html" class="text-3xl font-semibold text-white uppercase hover:text-gray-300">Admin</a>
+            <button class="flex items-center justify-center w-full py-2 mt-5 font-semibold bg-white rounded-tr-lg rounded-bl-lg rounded-br-lg shadow-lg cta-btn hover:shadow-xl hover:bg-gray-300">
+                <i class="mr-3 fas fa-plus"></i> New Report
+            </button>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         </div>
         <nav class="pt-3 text-base font-semibold text-white">
             <h2 class="ml-6 font-serif text-lg font-semibold text-white underline shadow">MENU</h2>
@@ -251,6 +265,7 @@
                 </div>
             </main>
 
+<<<<<<< HEAD
             <!-- start footer -->
             <footer class="flex w-auto space-x-2 text-white bg-gray-900">
                 <div class="w-1/3 h-full mt-10 ml-24 mr-32 item">
@@ -376,6 +391,10 @@
             <!-- end footer -->
             <footer class="w-full p-4 text-right text-white border-white/50 bg-gray-900">
                 Built by <a target="_blank" href="/aboutus" class="underline">055 056 070</a>.
+=======
+            <footer class="w-full p-4 text-right bg-white">
+                Built by <a target="_blank" href="https://davidgrzyb.com" class="underline">David Grzyb</a>.
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             </footer>
         </div>
 

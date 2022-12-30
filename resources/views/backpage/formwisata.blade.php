@@ -12,21 +12,37 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
         .font-family-karla { font-family: karla; }
+<<<<<<< HEAD
         .bg-sidebar { background: #475a5e; }
         .cta-btn { color: #25a0f2; }
         .upgrade-btn { background: #2ba4e1; }
         .upgrade-btn:hover { background: #43ccf1; }
+=======
+        .bg-sidebar { background: #3d68ff; }
+        .cta-btn { color: #3d68ff; }
+        .upgrade-btn { background: #1947ee; }
+        .upgrade-btn:hover { background: #0038fd; }
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         .active-nav-link { background: #1947ee; }
         .nav-item:hover { background: #1947ee; }
         .account-link:hover { background: #3d68ff; }
     </style>
 </head>
 <body class="flex bg-gray-100 font-family-karla">
+<<<<<<< HEAD
 
     <aside class="relative hidden w-64 h-screen shadow-xl bg-sidebar sm:block">
         <div class="p-6">
             <a href="index.html" class="text-3xl font-semibold text-white uppercase hover:text-gray-300">Admin Page</a>
             <img type="logo" class="w-24 mt-6 ml-8 rounded" src="/img/logo2.png" alt="logo I-Travel" title="Logo I-Travel" >
+=======
+    <aside class="relative hidden w-64 h-screen shadow-xl bg-sidebar sm:block">
+        <div class="p-6">
+            <a href="index.html" class="text-3xl font-semibold text-white uppercase hover:text-gray-300">Admin</a>
+            <button class="flex items-center justify-center w-full py-2 mt-5 font-semibold bg-white rounded-tr-lg rounded-bl-lg rounded-br-lg shadow-lg cta-btn hover:shadow-xl hover:bg-gray-300">
+                <i class="mr-3 fas fa-plus"></i> New Report
+            </button>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         </div>
         <nav class="pt-3 text-base font-semibold text-white">
             <h2 class="ml-6 font-serif text-lg font-semibold text-white underline shadow">MENU</h2>
@@ -160,8 +176,12 @@
         </header>
 
         <!-- Form -->
+<<<<<<< HEAD
         <form method="POST" action="/formwisata/post">
             @csrf
+=======
+        <form>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
             <div class="flex flex-col w-full h-screen overflow-x-hidden border-t">
                 <main class="h-full pb-16 overflow-y-auto">
                     <div class="container grid px-6 mx-auto">
@@ -171,12 +191,18 @@
                     </h4>
                     <div
                     class="px-4 py-3 mb-8 rounded-lg shadow-md bg-slate-400 dark:bg-gray-800">
+<<<<<<< HEAD
 
                     <div
                     class="px-4 py-3 mb-8 rounded-lg shadow-md bg-slate-400 dark:bg-gray-800">
                     <label class="block text-sm">
                     <span class="text-gray-700 dark:text-gray-400">Nama Wisata</span>
                     <input name="nama_wisata"
+=======
+                    <label class="block text-sm">
+                    <span class="text-gray-700 dark:text-gray-400">Nama Wisata</span>
+                    <input
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                         class="block w-1/3 p-2 mt-1 text-sm bg-slate-400 rounded-xl dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
                         placeholder="Name"
                     />
@@ -184,7 +210,11 @@
 
                     <label class="block text-sm">
                     <span class="text-gray-700 dark:text-gray-400">Lokasi</span>
+<<<<<<< HEAD
                     <input name="lokasi"
+=======
+                    <input
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                         class="block w-1/3 p-2 mt-1 text-sm bg-slate-400 rounded-xl dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
                         placeholder="Lokasi"
                     />
@@ -192,7 +222,11 @@
 
                     <label class="block mt-4 text-sm">
                     <span class="text-gray-700 dark:text-gray-400">Deskripsi</span>
+<<<<<<< HEAD
                     <textarea name="deskripsi"
+=======
+                    <textarea
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                         class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-textarea focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
                         rows="3"
                         placeholder="Deskripsi Wisata."
@@ -232,8 +266,13 @@
                         <input
                             type="radio"
                             class="text-purple-600 form-radio focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
+<<<<<<< HEAD
                             name="id_transportasi"
                             value="1"
+=======
+                            name="Pesawat"
+                            value="Pesawat"
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                         />
                         <span class="ml-2">Pesawat</span>
                         </label>
@@ -243,13 +282,19 @@
                         <input
                             type="radio"
                             class="text-purple-600 form-radio focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
+<<<<<<< HEAD
                             name="id_transportasi"
                             value="2"
+=======
+                            name="Bus"
+                            value="Bus"
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                         />
                         <span class="ml-2">Bus</span>
                         </label>
                     </div>
                     </div>
+<<<<<<< HEAD
                     <label class="block text-sm">
                     <span class="text-gray-700 dark:text-gray-400">Tanggal</span>
                     <input name="date" type="date"
@@ -262,6 +307,12 @@
                     {{-- Kalender --}}
                     <!-- <label class=block nt-4 text-sm>
                     component
+=======
+
+                    {{-- Kalender --}}
+                    <label class=block nt-4 text-sm>
+                    <!-- component -->
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
                     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
 
@@ -269,9 +320,15 @@
                     [x-cloak] {
                         display: none;
                     }
+<<<<<<< HEAD
                     </style> -->
 
                     <!-- <div class="antialiased sans-serif">
+=======
+                    </style>
+
+                    <div class="antialiased sans-serif">
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                         <div x-data="app()" x-init="[initDate(), getNoOfDays()]" x-cloak>
                             <div class="container px-4 py-2 mx-auto md:py-10">
                                 <div class="w-64 mb-5">
@@ -279,7 +336,11 @@
                                     <label for="datepicker" class="block mb-1 font-bold text-gray-700">Datetime</label>
                                     <div class="relative">
                                         <input type="hidden" name="date" x-ref="date">
+<<<<<<< HEAD
                                         <input name="date"
+=======
+                                        <input
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
                                             type="text"
                                             readonly
                                             x-model="datepickerValue"
@@ -295,9 +356,15 @@
                                             </div>
 
 
+<<<<<<< HEAD
                                             <div x-text="no_of_days.length"></div>
                                             <div x-text="32 - new Date(year, month, 32).getDate()"></div>
                                             <div x-text="new Date(year, month).getDay()"></div>
+=======
+                                            <!-- <div x-text="no_of_days.length"></div>
+                                            <div x-text="32 - new Date(year, month, 32).getDate()"></div>
+                                            <div x-text="new Date(year, month).getDay()"></div> -->
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 
                                             <div
                                                 class="absolute top-0 left-0 p-4 mt-12 bg-white rounded-lg shadow"
@@ -368,7 +435,11 @@
                                 </div>
 
                             </div>
+<<<<<<< HEAD
                         </div> -->
+=======
+                        </div>
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 
                         <script>
                             const MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -446,6 +517,7 @@
             </div>
         </form>
 
+<<<<<<< HEAD
         <!-- start footer -->
         <footer class="flex w-auto space-x-2 text-white bg-gray-900">
             <div class="w-1/3 h-full mt-10 ml-24 mr-32 item">
@@ -571,6 +643,10 @@
         <!-- end footer -->
         <footer class="w-full p-4 text-right text-white border-white/50 bg-gray-900">
             Built by <a target="_blank" href="/aboutus" class="underline">055 056 070</a>.
+=======
+        <footer class="w-full p-4 text-right bg-white">
+            Built by <a target="_blank" href="https://davidgrzyb.com" class="underline">David Grzyb</a>.
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
         </footer>
     </div>
 

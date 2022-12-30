@@ -1,10 +1,15 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+<<<<<<< HEAD
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\WisataController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Wisata;
+=======
+use Illuminate\Support\Facades\Route;
+
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,6 +32,7 @@ Route::get('/',[HomeController::class, 'index'])->name('landingpage');
 Route::get('/aboutus',[HomeController::class, 'aboutus'])->name('aboutus');
 Route::get('/contactus',[HomeController::class, 'contactus'])->name('contactus');
 Route::get('/wisata',[HomeController::class, 'Wisata'])->name('wisata');
+<<<<<<< HEAD
 Route::get('/Pantai-Dreamland',[HomeController::class, 'artikel'])->name('artikel');
 Route::get('/Pantai-Pandawa',[HomeController::class, 'artikel2'])->name('artikel');
 Route::get('/Garuda-Wisnu-Kencana',[HomeController::class, 'artikel3'])->name('artikel');
@@ -53,12 +59,32 @@ Route::get('/tabledata/edit/{id}',[AdminController::class, 'formEdit'])->middlew
 Route::get('/tabledata/wisata/edit/{id}',[AdminController::class, 'formeditwisata'])->middleware(['CheckClass:admin'])->name('formeditwisata');
 Route::put('/tabledata/wisata/update/{id}',[AdminController::class, 'updateWisata'])->middleware(['CheckClass:admin'])->name('formupdatewisata');
 Route::put('/tabledata/update/{id}',[AdminController::class, 'updateTiket'])->middleware(['CheckClass:admin'])->name('formupdate');
+=======
+Route::get('/artikel',[HomeController::class, 'artikel'])->name('artikel');
+
+
+Route::get('/admin', function () {
+    return view('backpage.admin');
+})->middleware(['CheckClass:admin'])->name('admin');
+Route::get('/tabledata', function () {
+    return view('backpage.tabledata');
+})->middleware(['CheckClass:admin'])->name('tabledata');
+Route::get('/formwisata', function () {
+    return view('backpage.formwisata');
+})->middleware(['CheckClass:admin'])->name('formwisata');
+Route::get('/formtiket', function () {
+    return view('backpage.formtiket');
+})->middleware(['CheckClass:admin'])->name('formtiket');
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 Route::get('/calendar', function () {
     return view('backpage.calendar');
 })->middleware(['CheckClass:admin'])->name('calendar');
 
 
+<<<<<<< HEAD
 Route::post('/review', [HomeController::class, 'createReview'])->name('createReview');
+=======
+>>>>>>> 44a1f7ab0c4b64ba15f6406acd34bf8a568932d1
 Route::get('/orderpage',[HomeController::class, 'formticket'])->name('orderpage');
 Route::get('/ticketpage', [HomeController::class, 'Tiket'])->middleware(['auth'])->name('Tiket');
 
